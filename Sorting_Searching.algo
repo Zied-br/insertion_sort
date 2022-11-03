@@ -14,7 +14,7 @@ BEGIN
         pos:=i;
         WHILE (pos>0 and arr[pos-1]>val) DO
             arr[pos]:=arr[pos-1];
-            pose:=pose-1;
+            pos:=pos-1;
         END_WHILE
         arr[pos]:=val;
     END_FOR
